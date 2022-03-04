@@ -37,12 +37,6 @@ nav {
     color: #e0017a;
 }
 
-/* @media screen and (min-width: 0px) and (max-width: 600px) {
-  #menu{ display: block; }  /* show it on smaller screen *//*
-}
-@media screen and (min-width: 401px) and (max-width: 1024px) {
-  #menu{ display: none; }   /* hide it on larger screens */
-/*} */
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .hero {

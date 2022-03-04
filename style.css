@@ -31,7 +31,7 @@ nav {
 .navbar .navbar-nav .nav-link:hover {
     color: #fff;
     background-color: #e0017a;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 .navbar .navbar-nav .nav-link {
     color: #e0017a;
@@ -46,7 +46,7 @@ nav {
   }
    
 }
-@media screen and (min-width: 921px) and (max-width: 1920px) {
+@media screen and (min-width: 921px) and (max-width: 10000px) {
   .hero {
     background-image: url(Background.jpg);
     height: 100vh;
@@ -125,10 +125,83 @@ p {
 }
 
 
-#About {
+/* --------------About Section-------------- */
+
+.container1 {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 0px) and (max-width: 920px) {
+  .About{
+    position: absolute;
+  }
+  .about-heading {
+    color: #0cf5d5;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+  
+  }
+  .about-par {
+    padding: 5%;
+    text-align: justify;
+    color: white;
+    font-size: 14px;
+  }
+   
+}
+@media screen and (min-width: 921px) and (max-width: 10000px) {
+  .About{
+    position: absolute;
+    padding: 10%;
+  }
+  .about-heading {
+    color: #0cf5d5;
+    text-align: left;
+    font-weight: bold;
+    font-size: 50px;
+    padding-bottom: 20px;
+  
+  }
+  .about-par {
+    text-align: justify;
+    color: white;
+    font-size: xx-large;
+  }
+}
+
+
+/* --------------Education Section-------------- */
+
+#Education {
   text-align: center;
 }
 
+/* --------------Skills Section-------------- */
+
+#Skills {
+  text-align: center;
+}
+
+
+/* --------------Work Section-------------- */
+
+#Work {
+  text-align: center;
+}
+
+/* --------------Contact Section-------------- */
+
+#Contact {
+  text-align: center;
+}
 
 .circle {
     width: 500px;
@@ -138,6 +211,10 @@ p {
     display: inline-block;
     
 }
+
+
+
+
 
 .circle1 {
     width: 700px;

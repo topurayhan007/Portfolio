@@ -1,0 +1,156 @@
+
+body {
+    background-color: #121218;
+    color: #fff;
+    font-family: Poppins;
+}
+
+nav {
+    background-color: #121218;
+    font-family: Poppins;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+    padding-left: 40px;
+}
+
+.navbar-nav {
+    padding-right: 20px;
+    
+}
+.navbar .navbar-brand:hover {
+    color: #fff;
+}
+.navbar .navbar-brand {
+    
+    color: #e0017a;
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #fff;
+    background-color: #e0017a;
+    border-radius: 3px;
+}
+.navbar .navbar-nav .nav-link {
+    color: #e0017a;
+}
+
+
+.hero {
+    /* background-image: linear-gradient(#131212, #121218); */
+    background-image: url(Background.jpg);
+    width: 100%;
+    height: 100vh;
+    text-align: left;
+    
+}
+
+
+.img-fluidd {
+  width: 100%;
+  height: auto;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.perspective-text {
+    color: white;
+    font-family: Poppins;
+    font-size:50px;
+    font-weight: bolder;
+    letter-spacing: -2px;
+  }
+  
+  .perspective-line {
+    height: 70px;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  p {
+    margin: 0;
+    height: 70px;
+    line-height: 70px;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .perspective-line:nth-child(odd) {
+    transform: skew(60deg, -20deg) scaleY(0.667);
+  }
+  
+  .perspective-line:nth-child(even) {
+    transform: skew(0deg, -20deg) scaleY(1.337);
+  }
+  
+  .perspective-text:hover p {
+    transform: translate(0, -80px);
+  }
+  
+  .perspective-line:nth-child(1) {
+    
+  }
+  
+  .perspective-line:nth-child(2) {
+    
+    background: #e0017a;
+  }
+  
+  .perspective-line:nth-child(3) {
+    
+    background: #180a36;
+  }
+  
+  .perspective-line:nth-child(4) {
+    
+    background: #0cf5d5;
+  }
+  
+  
+  
+
+
+.circle {
+    width: 500px;
+    height: 500px;
+    background-color: #0b3461;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.circle1 {
+    width: 700px;
+    height: 700px;
+    background-color: #d13862;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.circle2 {
+    width: 900px;
+    height: 900px;
+    background-color: #0cf5d5;
+    border-radius: 50%;
+    display: inline-block;
+    
+}
+
+.circle3 {
+    width: 300px;
+    height: 300px;
+    background-color: #e3ec10;
+    border-radius: 50%;
+    display: inline-block;
+    
+}

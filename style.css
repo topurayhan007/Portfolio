@@ -128,7 +128,7 @@ p {
 
 
 .lineUp {
-  animation: 2s anim-lineUp ease-out;
+  animation: 2s anim-lineUp ease-out 1;
 }
 @keyframes anim-lineUp {
   0% {

@@ -44,19 +44,29 @@ nav {
   #menu{ display: none; }   /* hide it on larger screens */
 /*} */
 
-.hero {
-    /* background-image: linear-gradient(#131212, #121218); */
+@media screen and (min-width: 0px) and (max-width: 920px) {
+  .hero {
+    background-image: url(BackgroundS.jpg);
+    height: 100vh;
+    text-align: left;
+  }
+   
+}
+@media screen and (min-width: 921px) and (max-width: 1920px) {
+  .hero {
     background-image: url(Background.jpg);
     height: 100vh;
     text-align: left;
-    
+  }
 }
+
 
 
 .img-fluidd {
   width: 100%;
   height: auto;
 }
+
 
 .container {
     height: 100vh;
@@ -74,54 +84,56 @@ nav {
     font-size:50px;
     font-weight: bolder;
     letter-spacing: -2px;
-  }
+}
   
-  .perspective-line {
-    height: 70px;
-    overflow: hidden;
-    position: relative;
-  }
+.perspective-line {
+  height: 70px;
+  overflow: hidden;
+  position: relative;
+}
+
+p {
+  margin: 0;
+  height: 70px;
+  line-height: 70px;
+  transition: all 0.5s ease-in-out;
+}
+
+.perspective-line:nth-child(odd) {
+  transform: skew(60deg, -20deg) scaleY(0.667);
+}
+
+.perspective-line:nth-child(even) {
+  transform: skew(0deg, -20deg) scaleY(1.337);
+}
+
+.perspective-text:hover p {
+  transform: translate(0, -80px);
+}
+
+.perspective-line:nth-child(1) {
   
-  p {
-    margin: 0;
-    height: 70px;
-    line-height: 70px;
-    transition: all 0.5s ease-in-out;
-  }
+}
+
+.perspective-line:nth-child(2) {
   
-  .perspective-line:nth-child(odd) {
-    transform: skew(60deg, -20deg) scaleY(0.667);
-  }
+  background: #e0017a;
+}
+
+.perspective-line:nth-child(3) {
   
-  .perspective-line:nth-child(even) {
-    transform: skew(0deg, -20deg) scaleY(1.337);
-  }
+  background: #180a36;
+}
+
+.perspective-line:nth-child(4) {
   
-  .perspective-text:hover p {
-    transform: translate(0, -80px);
-  }
-  
-  .perspective-line:nth-child(1) {
-    
-  }
-  
-  .perspective-line:nth-child(2) {
-    
-    background: #e0017a;
-  }
-  
-  .perspective-line:nth-child(3) {
-    
-    background: #180a36;
-  }
-  
-  .perspective-line:nth-child(4) {
-    
-    background: #0cf5d5;
-  }
-  
-  
-  
+  background: #0cf5d5;
+}
+
+
+#About {
+  text-align: center;
+}
 
 
 .circle {

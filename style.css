@@ -141,6 +141,7 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .About{
     position: absolute;
+    padding: 5%;
   }
   .about-heading {
     color: #0cf5d5;
@@ -149,11 +150,10 @@ p {
     font-weight: bold;
   
   }
-  .about-par {
-    padding: 5%;
+  p.about {
     text-align: justify;
     color: white;
-    font-size: 14px;
+    font-size: 13px;
   }
    
 }
@@ -163,14 +163,14 @@ p {
     padding: 10%;
   }
   .about-heading {
-    color: #0cf5d5;
+    color: #0cf5d5;    
+    padding-bottom: 20px;
     text-align: left;
     font-weight: bold;
     font-size: 50px;
-    padding-bottom: 20px;
   
   }
-  .about-par {
+  p.about {
     text-align: justify;
     color: white;
     font-size: xx-large;

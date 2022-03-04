@@ -47,7 +47,6 @@ nav {
 .hero {
     /* background-image: linear-gradient(#131212, #121218); */
     background-image: url(Background.jpg);
-    width: 100%;
     height: 100vh;
     text-align: left;
     

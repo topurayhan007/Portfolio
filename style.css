@@ -165,7 +165,7 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .About{
     position: absolute;
-    padding: 5%;
+    padding: 12%;
   }
   .about-heading {
     color: #0cf5d5;
@@ -178,6 +178,7 @@ p {
     text-align: justify;
     color: white;
     font-size: 13px;
+    line-height: 2;
   }
    
 }

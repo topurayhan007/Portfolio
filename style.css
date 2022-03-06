@@ -367,7 +367,7 @@ p {
   }
   
   .progress-bar:hover {
-    animation: 1s anim-line ease-in infinite;
+    animation: 1s anim-line ease-in 1;
   }
   @keyframes anim-line {
     0% {

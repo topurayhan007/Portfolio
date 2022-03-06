@@ -185,7 +185,7 @@ p {
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .About{
     position: absolute;
-    padding: 5%;
+    padding: 12%;
   }
   .about-heading {
     color: #0cf5d5;    

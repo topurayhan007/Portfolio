@@ -166,18 +166,19 @@ p {
   .About{
     position: absolute;
     padding: 12%;
+    width: 100%;
   }
   .about-heading {
     color: #0cf5d5;
     padding-bottom: 10px;
     text-align: left;
     font-weight: bold;
-  
+    font-size: 35px;
   }
   p.about {
     text-align: justify;
     color: white;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 2;
   }
    
@@ -186,13 +187,15 @@ p {
   .About{
     position: absolute;
     padding: 12%;
+    width: 100%;
+    height: 100%;
   }
   .about-heading {
     color: #0cf5d5;    
     padding-bottom: 20px;
     text-align: left;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 60px;
   
   }
   p.about {
@@ -201,7 +204,10 @@ p {
     font-size: xx-large;
   }
 }
-
+.col img {
+  width: 100%;
+  height: auto;
+}
 
 /* --------------Education Section-------------- */
 
@@ -219,26 +225,29 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .Education{
     position: absolute;
-    padding: 5%;
+    padding: 12%;
+    width: 100%;
   }
   .edu-heading {
     color: #0cf5d5;
     padding-bottom: 10px;
     text-align: right;
     font-weight: bold;
-  
+    font-size: 35px;
   }
   p.edu {
     text-align: justify;
     color: white;
-    font-size: 13px;
+    font-size: 15px;
   }
    
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .Education{
     position: absolute;
-    padding: 10%;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
   }
   .edu-heading {
     color: #0cf5d5;    
@@ -260,7 +269,7 @@ p {
 
 .container3 {
   position: relative;
-  height: 100vh;
+  height: 150vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -270,41 +279,129 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
-  .Skills {
+  .Skills{
     position: absolute;
-    padding: 5%;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
+  }
+  #tech {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 10%;
+  }
+  #tech h4{
+    font-size: large;
+  }
+  #pro {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  #pro h4{
+    font-size: large;
+  }
+  .progress {
+    border-radius: 10px;
+    margin: 5px 0px;
+  }
+
+  .progress-bar{
+    background-image: linear-gradient(to right, #7400f8, #e0017a);
+    border-radius: 10px;
   }
   .skills-heading {
     color: #0cf5d5;
     padding-bottom: 10px;
     text-align: left;
     font-weight: bold;
-  
+    font-size: 35px;
   }
-  p.skills {
-    text-align: justify;
-    color: white;
-    font-size: 13px;
+  .skills-sub {
+    color: #e0017a;    
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
   }
    
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .Skills {
     position: absolute;
-    padding: 10%;
+    padding: 5%;
+    width: 100%;
+    height: 100%;
   }
+
+  #tech {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 5%;
+    margin-left: 5%;
+    width: 40%;
+  }
+  
+  #pro {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 10%;
+    width: 40%;
+  }
+
+  .progress {
+    border-radius: 10px;
+    margin: 15px 0px;
+  }
+
+  .progress-bar{
+    background-image: linear-gradient(to right, #7400f8, #e0017a);
+    border-radius: 10px;
+  }
+  
+  .progress-bar:hover {
+    animation: 1s anim-line ease-in infinite;
+  }
+  @keyframes anim-line {
+    0% {
+      opacity: 0;
+      transform: translateX(80%);
+    }
+    20% {
+      opacity: 0.2;
+    }
+    50% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0%);
+    }
+  }
+
   .skills-heading {
     color: #0cf5d5;    
-    padding-bottom: 20px;
+    padding-bottom: 40px;
+    padding-left: 5%;
     text-align: left;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
   
   }
-  p.skills {
-    text-align: justify;
-    color: white;
-    font-size: xx-large;
+  .skills-sub {
+    color: #e0017a;    
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 30px;
   }
 }
 
@@ -325,7 +422,8 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .Work{
     position: absolute;
-    padding: 5%;
+    padding: 12%;
+    width: 100%;
   }
   .work-heading {
     color: #0cf5d5;
@@ -344,7 +442,9 @@ p {
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .Work{
     position: absolute;
-    padding: 10%;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
   }
   .work-heading {
     color: #0cf5d5;    

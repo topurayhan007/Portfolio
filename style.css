@@ -204,10 +204,7 @@ p {
     font-size: xx-large;
   }
 }
-.col img {
-  width: 100%;
-  height: auto;
-}
+
 
 /* --------------Education Section-------------- */
 
@@ -354,7 +351,7 @@ p {
     border-radius: 10px;
     padding: 30px;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 7%;
     width: 40%;
   }
   
@@ -363,7 +360,7 @@ p {
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     border-radius: 10px;
     padding: 30px;
-    margin-right: 10%;
+    margin-right: 8%;
     width: 40%;
   }
 
@@ -401,7 +398,7 @@ p {
   .skills-heading {
     color: #0cf5d5;    
     padding-bottom: 40px;
-    padding-left: 5%;
+    padding-left: 7%;
     text-align: left;
     font-weight: bold;
     font-size: 70px;

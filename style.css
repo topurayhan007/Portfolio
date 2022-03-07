@@ -6,14 +6,18 @@ body {
 }
 
 nav {
-    background-color: #121218;
+    background-color: #1c1824;
     font-family: Poppins;
     font-size: larger;
     font-weight: bold;
 }
-
+#logo {
+  height: 46px;
+  width: 46px;
+  margin-right: 15px;
+}
 .navbar-brand {
-    font-size: x-large;
+    font-size: 25px;
     padding-left: 40px;
 }
 
@@ -35,6 +39,7 @@ nav {
 }
 .navbar .navbar-nav .nav-link {
     color: #e0017a;
+    font-size: 20px;
 }
 
 
@@ -510,6 +515,93 @@ p {
   text-align: center;
 }
 
+
+
+/* --------------Footer Section-------------- */
+.container6 {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Footer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#121218, #1c1824);
+  padding: 20%;
+  text-align: center;
+  justify-content: center;
+
+}
+.Footer .fa-brands:hover {
+  color: #0cf5d5;
+}
+
+@media screen and (min-width: 0px) and (max-width: 920px) {
+  .container6 {
+    position: relative;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Footer .fa-brands {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #e0017a;
+    padding-bottom: 3%;
+  }
+  .Footer hr {
+    color:#f6ff00;
+    border: solid 2px;
+    border-radius: 10px;
+  }
+  .copyright {
+    padding-top: 2%;
+    color: #e0017a;
+  }
+  .copyright h4 {
+    font-weight: bolder;
+    font-size: 14px;
+  }
+
+}
+
+@media screen and (min-width: 921px) and (max-width: 10000px) {
+  .Footer .fa-brands {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #e0017a;
+    padding-bottom: 3%;
+  }
+  .Footer hr {
+    color: #0cf5d5;
+    border: solid 2.5px;
+    border-radius: 10px;
+  }
+  .copyright {
+    padding-top: 2%;
+    color: #e0017a;
+    font-weight: bolder;
+  }
+}
+
+
+
+
+
+
+
 .circle {
     width: 500px;
     height: 500px;
@@ -518,9 +610,6 @@ p {
     display: inline-block;
     
 }
-
-
-
 
 
 .circle1 {

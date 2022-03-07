@@ -279,6 +279,16 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
+  .container3 {
+    position: relative;
+    height: 200vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .Skills{
     position: absolute;
     padding: 12%;

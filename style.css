@@ -168,6 +168,7 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
+  
   .About{
     position: absolute;
     padding: 12%;
@@ -226,10 +227,25 @@ p {
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
+  .container2 {
+    position: relative;
+    height: 215vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  
   .Education{
     position: absolute;
+    margin-top: 50px;
     padding: 12%;
     width: 100%;
+    height: 100%;
+
   }
   .edu-heading {
     color: #0cf5d5;
@@ -239,6 +255,46 @@ p {
     font-size: 35px;
   }
   
+  #card {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+  .text-3 p {
+    height: 115px;
+  }
+  #card h5 {
+    color: #e0017a;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .text-2 {
+    order: 2;
+  }
+  .img-2{
+    order: 1;
+  }
+  #card h6 {
+    color: #0cf5d5;
+    font-size: medium;
+    font-weight: bold;
+  }
+  #card p{
+    font-size: medium;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  .w-100 {
+    border-radius: 10px;
+  }
+  #card .btn {
+    background-color: #e0017a;
+    color: #fff;
+    font-size: medium;
+    font-weight: bold;
+    
+  }
    
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
@@ -695,7 +751,7 @@ p {
     padding-bottom: 3%;
   }
   .Footer hr {
-    color:#f6ff00;
+    color:#0cf5d5;
     border: solid 2px;
     border-radius: 10px;
   }

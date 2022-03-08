@@ -45,7 +45,7 @@ nav {
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .hero {
-    background-image: url(BackgroundS.jpg);
+    background-image: url(media/BackgroundS.jpg);
     height: 100vh;
     text-align: left;
   }
@@ -53,7 +53,7 @@ nav {
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .hero {
-    background-image: url(Background.jpg);
+    background-image: url(media/Background.jpg);
     height: 100vh;
     text-align: left;
   }
@@ -598,7 +598,7 @@ p {
   #contact-form .form-control{
     background-color: #eceaea;
   }
-  .img-fluid{
+  #contact-img .img-fluid{
     border-radius: 10px;
   }
 }

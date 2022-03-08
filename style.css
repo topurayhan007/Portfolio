@@ -215,7 +215,7 @@ p {
 
 .container2 {
   position: relative;
-  height: 220vh;
+  height: 230vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -261,14 +261,52 @@ p {
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     border-radius: 10px;
     margin-bottom: 5%;
+    
+  }
+  .last {
+    height: 460px;
+  }
+  .button-l {
+    background-color: #0cf5d5;
+  }
+  .text-3 p {
+    height: 100px;
+  }
+  .w-100 {
+    border-radius: 10px;
   }
   #card h5{
     color: #e0017a;
     font-size: xx-large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding: 10px;
   }
   #card h6{
     color: #0cf5d5;
     font-size: x-large;
+    font-weight: bold;
+    padding-left: 10px;
+    padding: 10px;
+  }
+  #card p {
+    font-size: 20px;
+    line-height: 40px;
+    padding-left: 10px;
+    padding: 10px;
+  }
+  #card .button{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-left: 10px;
+    
+  }
+  #card .btn{
+    background-color: #e0017a;
+    color: #fff;
+    font-size: large;
+    font-weight: bold;
   }
 }
 
@@ -541,7 +579,7 @@ p {
     font-size: larger;
     font-weight: bold;
   }
-  .button{
+  #contact-form .button{
     display: flex;
     align-items: center;
     justify-content: center;

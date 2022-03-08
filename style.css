@@ -573,8 +573,8 @@ p {
     background: rgba(70, 51, 87, 0.2);
     box-shadow: 0 5px 15px rgba(0,0,0,0.5);
     border-radius: 10px;
-    padding: 10%;
-    margin-right: 5%;
+    padding: 7%;
+    margin-right: 0%;
     height: 100%;
     color: #e0017a;
     font-size: x-large;
@@ -598,7 +598,9 @@ p {
   #contact-form .form-control{
     background-color: #eceaea;
   }
-  
+  .img-fluid{
+    border-radius: 10px;
+  }
 }
 
 

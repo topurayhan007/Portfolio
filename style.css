@@ -215,13 +215,14 @@ p {
 
 .container2 {
   position: relative;
-  height: 100vh;
+  height: 220vh;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
@@ -237,11 +238,7 @@ p {
     font-weight: bold;
     font-size: 35px;
   }
-  p.edu {
-    text-align: justify;
-    color: white;
-    font-size: 15px;
-  }
+  
    
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
@@ -253,16 +250,25 @@ p {
   }
   .edu-heading {
     color: #0cf5d5;    
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     text-align: right;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
   
   }
-  p.edu {
-    text-align: justify;
-    color: white;
+  #card {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 5%;
+  }
+  #card h5{
+    color: #e0017a;
     font-size: xx-large;
+  }
+  #card h6{
+    color: #0cf5d5;
+    font-size: x-large;
   }
 }
 

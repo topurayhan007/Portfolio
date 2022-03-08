@@ -511,9 +511,96 @@ p {
 
 /* --------------Contact Section-------------- */
 
-#Contact {
-  text-align: center;
+@media screen and (min-width: 0px) and (max-width: 920px) {
+  .Contact{
+    position: absolute;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-heading {
+    color: #0cf5d5;
+    padding-bottom: 10px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 35px;
+  }
+  #form-div {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 10%;
+    margin-bottom: 5%;
+    color: #e0017a;
+    font-size: larger;
+    font-weight: bold;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  #contact-form .btn{
+    background-color: #e0017a;
+    font-size: larger;
+    font-weight: bold;
+    width: 40%;
+    padding: 2%;
+    border-radius: 7px;
+    color: #fff;
+  }
+  #contact-form .form-control{
+    background-color: #eceaea;
+  }
+   
 }
+@media screen and (min-width: 921px) and (max-width: 10000px) {
+  .Contact{
+    position: absolute;
+    padding: 12%;
+    width: 100%;
+    height: 100%;
+  }
+  .contact-heading {
+    color: #0cf5d5;    
+    padding-bottom: 20px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 60px;
+  }
+  #contact-form {
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    padding: 30px;
+    margin-right: 5%;
+    height: 100%;
+    color: #e0017a;
+    font-size: x-large;
+    font-weight: bold;
+  }
+  .button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+  }
+  #contact-form .btn{
+    background-color: #e0017a;
+    font-size: x-large;
+    font-weight: bold;
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    color: #fff;
+  }
+  #contact-form .form-control{
+    background-color: #eceaea;
+  }
+  
+}
+
 
 
 

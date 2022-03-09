@@ -864,6 +864,9 @@ p {
 .Footer .fa-brands:hover {
   color: #0cf5d5;
 }
+.Footer .fa-solid:hover {
+  color: #0cf5d5;
+}
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .container6 {
@@ -878,6 +881,12 @@ p {
   }
 
   .Footer .fa-brands {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #e0017a;
+    padding-bottom: 3%;
+  }
+  .Footer .fa-solid {
     padding-left: 2%;
     padding-right: 2%;
     color: #e0017a;
@@ -901,6 +910,12 @@ p {
 
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .Footer .fa-brands {
+    padding-left: 2%;
+    padding-right: 2%;
+    color: #e0017a;
+    padding-bottom: 3%;
+  }
+  .Footer .fa-solid {
     padding-left: 2%;
     padding-right: 2%;
     color: #e0017a;

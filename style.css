@@ -583,7 +583,7 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   #Work{
     position: relative;
-    height:480vh;
+    height:650vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -600,7 +600,7 @@ p {
   .work-heading {
     color: #0cf5d5;
     padding-bottom: 10px;
-    text-align: right;
+    text-align: left;
     font-weight: bold;
     font-size: 35px;
   }

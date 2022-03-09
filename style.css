@@ -566,6 +566,19 @@ p {
   margin-left: auto;
   margin-right: auto;
 }
+#Work{
+  position: relative;
+  height:450vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .Work{
@@ -585,6 +598,16 @@ p {
     color: white;
     font-size: 13px;
   }
+  .card{
+    color: #e0017a;
+  }
+
+  .card-body .btn{
+    background-color: #e0017a;
+    color: white;
+    font-weight: medium;
+    font-weight: bold;
+  }
    
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
@@ -597,17 +620,60 @@ p {
   .work-heading {
     color: #0cf5d5;    
     padding-bottom: 20px;
-    text-align: left;
+    text-align: right;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 70px;
   
   }
-  p.work {
-    text-align: justify;
-    color: white;
-    font-size: xx-large;
+  
+  .card{
+    width: 30rem;
+    height: 40rem;
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
   }
+  .card-title{
+    color: #e0017a;
+  }
+  .card-text{
+    color: #fff;
+    line-height: 2rem;
+    text-align: justify;
+    height: 170px;
+  }
+  .card-text-2 {
+    height: 120px;
+  }
+  .card-body .btn{
+    background-color: #e0017a;
+    color: white;
+    font-weight: medium;
+    font-weight: bold;
+  }
+  #carouselExampleIndicators{
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 10%;
+  }
+  #carouselExampleIndicators2{
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+  }
+  .card-research {
+    height: 350px;
+  }
+
 }
+
+
+
+
+
+
+
 
 /* --------------Contact Section-------------- */
 

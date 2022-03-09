@@ -581,6 +581,17 @@ p {
 
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
+  #Work{
+    position: relative;
+    height:480vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
   .Work{
     position: absolute;
     padding: 12%;
@@ -589,26 +600,61 @@ p {
   .work-heading {
     color: #0cf5d5;
     padding-bottom: 10px;
-    text-align: left;
+    text-align: right;
     font-weight: bold;
+    font-size: 35px;
+  }
   
-  }
-  p.work {
-    text-align: justify;
-    color: white;
-    font-size: 13px;
-  }
   .card{
-    color: #e0017a;
+    height: 40rem;
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 10%;
   }
-
+  
+  .card-title{
+    color: #e0017a;
+    font-size: medium;
+    font-weight: bold;
+  }
+  .card-text{
+    color: #fff;
+    line-height: 2rem;
+    text-align: justify;
+    font-size: 13.5px;
+    height: 300px;
+  }
+  .card-text-2{
+    height: 180px;
+    font-size: 14px;
+  }
   .card-body .btn{
     background-color: #e0017a;
     color: white;
     font-weight: medium;
     font-weight: bold;
   }
-   
+  #carouselExampleIndicators{
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+    margin-bottom: 10%;
+  }
+  #carouselExampleIndicators2{
+    background: rgba(70, 51, 87, 0.2);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+    border-radius: 10px;
+  }
+  .research-main-div{
+    height: 60rem;
+  }
+  .card-research {
+    height: 390px;
+    font-size: medium;
+    text-align: justify;
+  }
+  
 }
 @media screen and (min-width: 921px) and (max-width: 10000px) {
   .Work{
@@ -665,7 +711,12 @@ p {
   .card-research {
     height: 350px;
   }
-
+  #card-reasearch {
+    height: 40rem;
+  }
+  .research-main-div{
+    height: 40rem;
+  }
 }
 
 

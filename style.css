@@ -583,7 +583,7 @@ p {
 @media screen and (min-width: 0px) and (max-width: 920px) {
   #Work{
     position: relative;
-    height:650vh;
+    height:700vh;
     display: flex;
     align-items: center;
     justify-content: center;

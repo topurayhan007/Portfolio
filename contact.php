@@ -13,7 +13,7 @@
             $mail .= $email. "\r\n";
             $mail .= $message. "\r\n";
 
-            mail($my_email, ,$message, $mail);
+            mail($my_email,"From website",$message, $mail);
 
             $message_sent = true;
         }

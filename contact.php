@@ -6,7 +6,7 @@
             $message = $_POST['message'];
             $subject = 'From website';
 
-            $to = '1930179@iub.edu.bd';
+            $to = 'topurayhan007@gmail.com';
             $mail = '' . $email . "\r\n" . $message . "\r\n";
 
             mail($to, $subject, $mail);

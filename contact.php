@@ -1,8 +1,6 @@
 <?php
     
-    if( isset($_POST['email']) && $_POST['email'] != '' ) {
-
-        if( filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
+    if( isset($_POST["submit"]) && isset($_POST['email']) && $_POST['email'] != '' ) { ){
 
             $email = $_POST['email'];
             $message = $_POST['message'];
@@ -12,7 +10,7 @@
             $mail = '' . $email . "\r\n" . $message . "\r\n";
 
             mail($to, $subject, $mail);
-        }
+        
     }
 
 

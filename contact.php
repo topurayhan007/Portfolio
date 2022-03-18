@@ -10,6 +10,7 @@
             $mail = '' . $email . "\r\n" . $message . "\r\n";
 
             mail($to, $subject, $mail);
+            echo $thankYou="<p>Thank you! We will be in contact with you shortly.</p>";
         
     }
 

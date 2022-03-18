@@ -7,13 +7,12 @@
 
             $email = $_POST['email'];
             $message = $_POST['message'];
+            $subject = "From website";
 
             $my_email = "topurayhan007@gmail.com";
-            $mail = "";
-            $mail .= $email. "\r\n";
-            $mail .= $message. "\r\n";
+            $mail = $email. "\r\n" . $message. "\r\n";
 
-            mail($my_email,"From website",$message, $mail);
+            mail($my_email, $subject, $message, $mail);
 
             $message_sent = true;
         }

@@ -1,6 +1,6 @@
 <?php
     
-    if( isset($_POST['submit']) && isset($_POST['email']) && $_POST['email'] != '' ) { ){
+    if( isset($_POST['submit']) && isset($_POST['email']) && $_POST['email'] != '' ) {
 
         $email = $_POST['email'];
         $message = $_POST['message'];

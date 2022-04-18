@@ -4,7 +4,9 @@ body {
     color: #fff;
     font-family: Poppins;
 }
-
+body::-webkit-scrollbar {
+  display: none;
+}
 nav {
     background-color: #1c1824;
     font-family: Poppins;

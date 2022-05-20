@@ -209,7 +209,7 @@ p {
     font-size: 35px;
   }
   p.about {
-    text-align: justify;
+    text-align: left;
     color: white;
     font-size: 15px;
     line-height: 2;
@@ -648,7 +648,7 @@ p {
   .card-text{
     color: #fff;
     line-height: 2rem;
-    text-align: justify;
+    text-align: left;
     font-size: 13.5px;
     height: 300px;
   }
@@ -679,7 +679,7 @@ p {
   .card-research {
     height: 390px;
     font-size: medium;
-    text-align: justify;
+    text-align: left;
   }
   
 }
@@ -712,7 +712,7 @@ p {
   .card-text{
     color: #fff;
     line-height: 2rem;
-    text-align: justify;
+    text-align: left;
     height: 170px;
   }
   .card-text-2 {

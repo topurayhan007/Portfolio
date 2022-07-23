@@ -754,10 +754,6 @@ p {
 
 
 /* --------------Contact Section-------------- */
-.fb-customerchat{
-    color: #e0017a;
-    background-color: #e0017a;
-}
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
   .Contact{

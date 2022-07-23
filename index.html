@@ -20,9 +20,13 @@
     <!-- Icon -->
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
 
 </head>
 <body>
+        <script>
+                    FB.CustomerChat.hide();
+        </script>
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top" id="navbaar"><a href="/" class="navbar-brand">
         <svg id="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 233.1 241.5">
             <defs>
@@ -510,7 +514,11 @@
             <!-- Your Chat Plugin code -->
             <div id="fb-customer-chat" class="fb-customerchat">
             </div>
-
+      
+            <script>
+                FB.CustomerChat.show(shouldShowDialog: boolean);
+            </script>
+        
             <script>
             var chatbox = document.getElementById('fb-customer-chat');
             chatbox.setAttribute("page_id", "109399020469696");

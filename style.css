@@ -57,31 +57,16 @@ nav {
   }
 }
 
-@media screen and (min-width: 0px) and (max-width: 920px) {
-  .hero {
-    /* background-image: url(media/BackgroundS.jpg); */
-    height: 100vh;
-    position: absolute;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(50, 90px);
-    grid-template-rows: repeat(50, 90px);
-    overflow: hidden;
-    text-align: left;
-  }
-}
-@media screen and (min-width: 921px) and (max-width: 10000px) {
-  .hero {
-    /* background-image: url(media/Background.jpg); */
-    height: 100vh;
-    position: absolute;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(50, 90px);
-    grid-template-rows: repeat(50, 90px);
-    overflow: hidden;
-    text-align: left;
-  }
+.hero {
+  /* background-image: url(media/Background.jpg); */
+  height: 100vh;
+  position: absolute;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(50, 90px);
+  grid-template-rows: repeat(50, 90px);
+  overflow: hidden;
+  text-align: left;
 }
 
 .dot {
@@ -125,6 +110,8 @@ nav {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
+    left: 0;
+    right: 0;
   }
 }
 
@@ -137,7 +124,8 @@ nav {
     overflow: hidden;
     margin-left: auto;
     margin-right: auto;
-    left: 13%;
+    left: 0;
+    right: 0;
   }
 }
 

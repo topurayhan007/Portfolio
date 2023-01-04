@@ -9,7 +9,7 @@
 
 let holder = document.getElementById("hero");
 
-let gs = 50;
+let gs = 25;
 
 window.onload = () => {
   for (let i = 0; i < gs; i++) {

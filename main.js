@@ -21,3 +21,16 @@ window.onload = () => {
     }
   }
 };
+
+let preloader = document.getElementById("preloader");
+let content = document.getElementById("content");
+
+document.onreadystatechange = function () {
+  if (document.readyState !== "complete") {
+    content.classList.add("d-none");
+    document.querySelector("#preloader").style.visibility = "visible";
+  } else {
+    preloader.classList.add("d-none");
+    content.classList.remove("d-none");
+  }
+};

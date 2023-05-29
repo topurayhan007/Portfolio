@@ -30,7 +30,13 @@ document.onreadystatechange = function () {
     content.classList.add("d-none");
     document.querySelector("#preloader").style.visibility = "visible";
   } else {
-    preloader.classList.add("d-none");
-    content.classList.remove("d-none");
+    /* preloader.classList.add("d-none");
+    content.classList.remove("d-none"); */
+    preloader.classList.add("fade-out");
+    setTimeout(function () {
+      preloader.classList.add("d-none");
+      content.classList.remove("d-none");
+      document.getElementById("preloaderLogo").classList.add("zoomIn");
+    }, 300);
   }
 };

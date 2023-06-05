@@ -114,7 +114,7 @@ nav {
 }
 
 @media screen and (min-width: 0px) and (max-width: 920px) {
-  .container {
+  .banner {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -128,7 +128,7 @@ nav {
 }
 
 @media screen and (min-width: 921px) and (max-width: 10000px) {
-  .container {
+  .banner {
     height: 100vh;
     display: flex;
     align-items: center;
@@ -221,57 +221,40 @@ p {
 
 /* --------------About Section-------------- */
 
-.container1 {
-  position: relative;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
+.about-heading {
+  color: #0cf5d5;
+  padding-bottom: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+}
+p.about {
+  text-align: left;
+  color: white;
+  font-size: 15px;
+  line-height: 2;
 }
 
-@media screen and (min-width: 0px) and (max-width: 920px) {
-  .About {
-    position: absolute;
-    padding: 12%;
-    width: 100%;
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    .about-heading {
+      padding-bottom: 20px;
+      font-size: 40px;
+    }
+    p.about {
+      text-align: justify;
+      font-size: 20px;
+    }
   }
-  .about-heading {
-    color: #0cf5d5;
-    padding-bottom: 10px;
-    text-align: left;
-    font-weight: bold;
-    font-size: 35px;
+  @media screen and (min-width: 992px) {
+    .about-heading {
+      padding-bottom: 20px;
+      font-size: 50px;
+    }
+    p.about {
+      text-align: justify;
+      font-size: 25px;
+    }
   }
-  p.about {
-    text-align: left;
-    color: white;
-    font-size: 15px;
-    line-height: 2;
-  }
-}
-@media screen and (min-width: 921px) and (max-width: 10000px) {
-  .About {
-    position: absolute;
-    padding: 12%;
-    width: 100%;
-    height: 100%;
-  }
-  .about-heading {
-    color: #0cf5d5;
-    padding-bottom: 20px;
-    text-align: left;
-    font-weight: bold;
-    font-size: 60px;
-  }
-  p.about {
-    text-align: justify;
-    color: white;
-    font-size: xx-large;
-  }
-}
 
 /* --------------Education Section-------------- */
 
